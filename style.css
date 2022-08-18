@@ -1,0 +1,137 @@
+html {
+  background-color: #fff;
+  display: block;
+}
+body {
+  margin: 30px 15px;
+  padding: 0;
+  font-family: 'Lato', 'Lucida Grande', 'Lucida Sans Unicode', Tahoma, Sans-Serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.7em;
+  box-sizing: border-box;
+  border-radius: 5px;
+  background: #eee;
+  color: #111;
+  text-align: center;
+}
+
+#main {
+  padding: 20px;
+  margin: 25px 8px;
+  border-radius: 5px;
+  display: block;
+}
+#title{
+  margin-block-start: 0.65em;/*margin top*/
+  margin-block-end: 0.65em;
+  font-size: 35px;
+  line-height: 1.5em;
+  text-align: center;
+  color: #111;
+  display: block;
+}
+
+#img-div {
+  max-width: 100%;
+  text-align: center;
+  padding: 35px;
+  border-radius: 5px;
+  background-color: #fff;
+ 
+}
+
+img {
+  display: block;
+  height: auto;
+  max-width: 100%;
+  margin: 0 auto;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+
+ 
+#img-caption {
+  padding: 20px;
+  background-color: #fff;
+  color: #111;
+  text-align: center;
+  margin: 15px 8px;
+  display: block;
+  box-sizing: border-box;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+ 
+
+#tribute-info {
+  padding-top: 5px;
+  display: block;
+  font-size: 1.1em;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 40px;
+  margin-inline-end: 40px;
+  text-align: left;
+}
+
+/*.list{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}*/
+ul{
+    max-width: 550px;
+    margin: 0 auto 50px auto;
+    text-align: left;
+    line-height: 1.6;
+}
+
+h3{
+  display: inline-block;
+  color: #111;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+#tribute-link {
+  text-decoration: none;
+  color:#003467;
+  font-weight: bold;
+}
+
+@media screen and (max-width:1000px) {
+  main{
+    font-size: 16px;
+  }
+  p{
+    font-size: 16px;
+  }
+  
+}
+
+
+@media screen and (max-width:500px) {
+ #img-caption{
+  line-height: 50px;
+ } 
+
+ #title {
+  font-size: 30px;
+ }
+  
+}
+
+
+
